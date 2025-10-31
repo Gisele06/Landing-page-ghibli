@@ -5,6 +5,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
     padding: 20px;
+    color: white;
+    font-family: sans-serif;
+    height: 60vw;
+
 }
 
 header{
@@ -19,13 +23,14 @@ header{
 
 
 nav{
-    font-family:'Konkhmer Sleokchher';
     color: aliceblue;
+    font-family:'Konkhmer Sleokchher';
+
 }
 
 .logo img {
   height: 87px; 
-  
+
                   
 }
 
@@ -39,9 +44,85 @@ nav{
   color: #b0e57c;                 
 }
 
+h1{
+    font-family:'Konkhmer Sleokchher';
+
+}
+
+.texto1{
+    color: aliceblue;
+    font-family: inherit;
+    
+}
+
+.texto2{
+    color: white;
+
+}
+
+.filmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.filmes img{
+   height: 400px; 
+    width: 300px;
+    display: flex;
+    object-fit: cover;
+    
+}
+
+main{
+    height: 50%;
+    width: 55%;
+    display: flex;
+    padding-top: 90px;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 100px;
 
 
+    
+}
 
+.localizacao{
+    
+font-size: large;
+}
+
+.location{
+
+margin-top: 50px;
+
+}
+
+.algumacoisa{
+
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.location img{
+
+    width: 40px;
+    height: 40px;
+    
+}
+
+.fest{
+    text-align: left;
+    margin-left: 80px;
+    width: 50%;
+}
+
+.fest h1{
+    font-size:1 ;
+}
 
 
 /* konkhmer-sleokchher-latin-400-normal */
